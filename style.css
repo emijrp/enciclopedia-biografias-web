@@ -1,0 +1,172 @@
+body {
+    font-family: "dejavu sans","arial",sans-Serif;
+    font-size: 100%;
+    line-height: 1.3em;
+    margin: auto;
+    padding: 5px;
+    width: 800px;
+    background: #FFFFFF;
+    text-align: justify;
+}
+
+div.header{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    margin: 2px 0px 2px 0px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 5px 5px #F2E8DF inset;
+}
+div.header-loop{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    margin: 2px 0px 2px 0px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 5px 5px #F2E8DF inset;
+    -webkit-animation: loading 45s infinite linear;
+    -moz-animation: loading 45s infinite linear;
+    -ms-animation: loading 45s infinite linear;
+    -o-animation: loading 45s infinite linear;
+    animation: loading 45s infinite linear;
+}
+h1.header-title{
+    font-style: italic;
+    margin: 0px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+h2.header-title{
+    margin-top: 10px;
+    padding: 5px;
+}
+div.footer{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div.main{
+    background: #F2E8DF;
+    box-shadow: 0 0 15px 10px #F2E8DF;
+}
+div.content{
+    padding: 0px 5px 0px 5px;
+}
+img.index-row{
+    padding-top: 10px;
+}
+img.index-row-image{
+    width: 40px;
+    height: 50px;
+}
+table.infobox{
+    float: right;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #FFE5B4;
+    margin-left: 15px;
+    box-shadow: 0px 0px 5px 5px #000000 outset;
+}
+td.infobox-image{
+    text-align: center;
+    padding-top: 5px;
+}
+td.infobox-field{
+    text-align: right;
+}
+input[type=text] {
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 450px;
+}
+div.search-result{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid grey;
+    padding: 2px;
+}
+img.search-result-image{
+    width: 40px;
+    height: 50px;
+}
+.ui-autocomplete { width: 10%; height: auto; max-height: 300px; overflow-y: scroll; overflow-x: hidden;}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #013ADF;
+}
+a:hover, a:active{
+    text-decoration: underline;
+    color: #013ADF;
+}
+
+@keyframes "loading" {
+ 0% {
+    background-position: 0 0;
+ }
+ 100% {
+    background-position: 0 100%;
+ }
+
+}
+
+@-moz-keyframes loading {
+ 0% {
+   background-position: 0 0;
+ }
+ 100% {
+   background-position: 0 100%;
+ }
+
+}
+
+@-webkit-keyframes "loading" {
+ 0% {
+   background-position: 0 0;
+ }
+ 100% {
+   background-position: 0 100%;
+ }
+
+}
+
+@-ms-keyframes "loading" {
+ 0% {
+   background-position: 0 0;
+ }
+ 100% {
+   background-position: 0 100%;
+ }
+
+}
+
+@-o-keyframes "loading" {
+ 0% {
+   background-position: 0 0;
+ }
+ 100% {
+   background-position: 0 100%;
+ }
+
+}
