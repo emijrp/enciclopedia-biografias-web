@@ -81,6 +81,9 @@ td.infobox-image{
 td.infobox-field{
     text-align: right;
 }
+td.infobox-description{
+    text-align: center;
+}
 input[type=text] {
     width: 350px;
     box-sizing: border-box;
