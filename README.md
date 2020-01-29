@@ -1,3 +1,3 @@
 # enciclopedia-biografias-web
 
-Enciclopedia de biografías automática.
+Enciclopedia de biografías automática generada a partir de Wikipedia.
